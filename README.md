@@ -5,3 +5,12 @@
 ![222](https://user-images.githubusercontent.com/93528417/176992220-b402b680-b440-489c-8eb9-fda82c2b17c0.JPG)
 Installation
 <hr>
+Usage
+<hr>
+cd kodluyoruzilkrepo
+code .
+Contributing
+Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+
+License
+MIT
