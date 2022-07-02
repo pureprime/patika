@@ -3,14 +3,17 @@
 # Yorumlarınızı Pyalaşmaktan Çekinmeyin.
 ![11](https://user-images.githubusercontent.com/93528417/176992213-d0cd2507-4bfc-4223-b73b-1b333e571a48.JPG)
 ![222](https://user-images.githubusercontent.com/93528417/176992220-b402b680-b440-489c-8eb9-fda82c2b17c0.JPG)
-Installation
+##Installation
 <hr>
-Usage
+##Usage
 <hr>
 cd kodluyoruzilkrepo
 code .
-Contributing
+<hr>
+##Contributing
+<hr>
 Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
-
-License
+<hr>
+##License
+<hr>
 MIT
