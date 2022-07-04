@@ -1,0 +1,165 @@
+body{
+
+font-family: 'Work Sans', sans-serif;
+background-color: #F0EBE3;
+padding: 0;
+margin: 0;}
+
+a, li{
+  text-decoration:none;
+  list-style: none;
+color: black;
+}
+a:visited, a:hover{
+  text-decoration:none;
+  color: red;
+
+}
+
+nav{
+  position: sticky;
+  margin:0;
+  padding: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color:#F0EBE3;
+  width: 100%;
+height: 50px;
+}
+
+.logo{
+  display: flex;width: 180px;
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-style:italic;
+text-decoration: underline;
+
+}
+.menüs  {
+display: flex;
+text-decoration: none;
+width: 500px;
+margin-top: 10px;
+justify-content: space-between;
+
+margin-left: auto;
+margin-right: auto;
+}
+.menüs li{
+  font-size: 18px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.Container{
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.box-container{
+  text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+  margin-top: 15px;
+}
+.box{
+  width: 350px;
+height: 300px;
+background-color: #C4DFAA;
+border-radius: 10px;
+float: left;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+}
+
+.box:hover{
+  background-color: #F5F0BB;
+  color: white;
+}
+
+.box:hover a:hover{
+  color: white
+}
+hr{
+  border-radius: 5px;
+
+  width: 450px;
+}
+
+.blog{
+  font-size: 17px;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #F9F2ED;
+  color: black;
+  width: 100%;
+display: flex;
+  margin: 0;
+justify-content:space-between;
+  text-align:left;
+  font-size: 14px;
+  cursor: pointer;
+
+
+}
+.left{
+  width: 350px;
+padding-left: 40px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.center li{
+  margin-top: 5px;
+  font-family: 'Montserrat',sans-serif;
+  cursor: pointer;
+  list-style-type:circle;
+}
+.center li:hover{
+    transition: transform 330ms ease-in-out;
+      color: #3AB0FF;
+  font-weight: 700;
+}
+
+.right {
+
+padding-right: 40px;
+  width: 250px;
+  margin-left: 0;
+}
+.right p:hover{
+  ransition: transform 330ms ease-in-out;
+    color: #3AB0FF;
+font-weight: 700;
+}
+.slide{
+display:contents;
+padding: 0;
+margin: 0;
+}
+.slide img{
+  object-fit: cover;
+  object-position: center;
+width: 100%;
+height: 50vh;
+margin: 0;
+}

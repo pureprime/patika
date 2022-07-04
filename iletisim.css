@@ -1,0 +1,56 @@
+body{
+
+  background-image: url('iletisimarakaplan.jpeg');
+background-position:center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.iletisim{
+  width: 50vw;
+  height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Work Sans',sans-serif;
+font-size: 25px;
+}
+.iletisim input{
+width: 300px;
+border: none;
+border-radius: 10px;
+height: 32px;
+padding-left: 15px;
+font-size: 18px;
+
+
+}
+.iletisim label{
+
+
+}
+.input-container{
+padding: 0;
+margin: 10px;
+    width: min-content;
+
+
+}
+.iletisim button{
+width: 150px;
+height: 40px;
+border-radius: 15px;
+border:none;
+background-color: #3AB0FF;
+
+
+}
+.iletisim button:hover{
+  background-color: #1363DF;
+  color: white;
+  transition:  0.9s ease-out;
+  cursor: pointer;
+}
