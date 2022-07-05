@@ -1,0 +1,119 @@
+body{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+.logo{
+display: flex;
+justify-content: center;
+margin-top: 15px;
+
+}
+.arama{
+text-align: center;
+align-items: center;
+background-color: #eeeeee;
+width: 70vw;
+height: 14vh;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 0;
+padding: 0;
+}
+.arama input{
+  width: 80%;
+  height: 31px;
+  margin-bottom: 1px;
+  margin-top: 0;
+}
+.arama button{
+  height: 35px;
+  width: 140px;
+  font-size: 17px;
+}
+.arama p{
+  font-size: 27px;
+/* border: 1px solid; */
+height: 40px;
+margin: 0;
+padding: 0;
+}
+.footer{
+display:flex;
+align-items: center;
+  width:70vw;
+  height: 15vh;
+  justify-content: space-between;
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 19px;
+}
+.left{
+  background-color: #7ee5da;
+width: 24vw;
+height: 100%;
+display:flex;
+flex-direction: column;
+text-align:center;
+font-size: 24px;
+justify-content: center;
+}
+.center{
+  background-color:#70ccc2;
+  width: 17vw;
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  align-items: center;
+  height: 100%;
+  font-size: 21px;
+  justify-content: center;
+}
+.right{
+text-align: center;
+  background-color:#62b3aa;
+align-items: center;
+align-content: center;
+  width: 28vw;
+  padding:0;
+  height: 100%;
+display:flex;
+flex-direction: column;
+    justify-content: flex-end;
+
+}
+.right p, .right input{
+  padding: 0;
+  margin: 0;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.right button{
+
+  width: 100px;
+  height: 27px;
+
+border: 1px solid;
+
+}
+.right a{
+  display:flex;
+  font-size: 23px;
+  display: flex;
+  flex-direction:row;
+}
+.kapsayıcı{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+
+  justify-content: space-around;
+}
+.copy{
+  text-align: center;
+}
