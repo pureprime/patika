@@ -1,0 +1,144 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #ffff;
+}
+
+li{
+list-style: none;
+color: #476072;
+cursor: pointer;
+}
+
+nav{
+margin: 34px 15px 10px 15px;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+
+}
+.right{
+  display: flex;
+align-items: center;
+align-content: center;
+  width:350px;
+  justify-content: center;
+}
+.right li, .right img, .right button{
+  margin-left: 12px;
+}
+.right button{
+  background-color:#1363DF;
+  color: white;
+  width: 100px;
+  height: 35px;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+opacity: 0.9;
+margin-left: 20px;
+}
+.right button:hover{
+opacity: 1.1;
+}
+.left{
+
+  display: flex;
+
+}
+.left li{
+  margin-left: 15px;
+}
+.logo{
+
+  text-align: center;
+  margin-top: 14rem;
+}
+.input{
+margin-left: auto;
+margin-right: auto;
+width: 29rem;
+  position: relative;
+  border: 1px solid #F2F2F2;
+  border-radius:13px;
+
+}
+.input input{
+  width: 29rem;
+  border: none;
+  border-radius: 14px;
+  height: 2rem;
+
+
+box-sizing:border-box;
+outline: none;
+}
+
+.input i{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+.input img{
+  position: absolute;
+width: 2rem;
+height: 2rem;
+right: 0;
+margin-right: 10px;
+cursor: pointer;
+}
+.buttons{
+  text-align: center;
+}
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+    border: none;
+  user-select: none;
+    border-radius: 3px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+background-color: #F2F2F2;
+width: 100%;
+margin: 0;
+padding: 0;
+position: absolute;
+bottom: 0;
+}
+.left2{
+  display: flex;
+  width: 18vw;
+align-items: center;
+padding-left: 30px;
+cursor: pointer;
+  justify-content: space-between;
+}
+.right2{
+  height: 60px;
+  display: flex;
+  width: 10vw;
+align-items: center;
+padding-right: 15px;
+cursor: pointer;
+  justify-content: space-between;
+}
