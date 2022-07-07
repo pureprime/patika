@@ -1,0 +1,21 @@
+body{
+  background-color: #E9ECEF;
+}
+a, a:hover, a:visited{
+  list-style: none;
+  text-decoration: none;
+font-size: 18px;
+}
+.row{
+
+  height: 550px;
+}
+.ortalama{
+
+  text-align: center;
+}
+.card-img-top{
+
+  width: 90%;
+  height: 14rem;
+}
