@@ -1,0 +1,173 @@
+body{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Nunito',sans-serif;
+font-weight: 600;
+background-color: #f3f2ef;
+
+
+}
+.menü{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  height: 64px;
+  font-size: 15px;
+
+
+}
+.card-img-top{
+border-radius: 50%;
+width: 68px;
+height: 68px;
+object-fit: cover;
+}
+.paintingarea{
+  background-color: grey;
+  height: 50px;
+
+}
+.vc{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.bi-chevron-compact-up{
+  opacity: 0;
+}
+.card-header:hover{
+  background-color: #B6b7b7;
+  cursor: pointer;
+
+}
+.box{
+  width: 100%;
+  background-color: white;
+display: inline-block;
+height:135px;
+border-radius: 10px;
+margin-top:10px;
+}
+.box img{
+  width:68px;
+  height: 68px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.box input{
+  border-radius:20px;
+  padding-left:10px;
+  margin-left: 5px;
+  border:0.54px solid grey;
+  width:80%;
+  height: 48px;
+  font-size: 14px;
+}
+.box1{
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  display: flex;
+  align-items: center;
+}
+.box2 a{
+text-decoration: none;
+color:black;
+margin-left:0;
+}
+.box2{
+margin-left: auto;
+margin-right.auto;
+width: 95%;
+  margin-top:14px;
+}
+.box2 a:hover{
+color: #F9F2ED;
+  background-color:#CFD2CF;
+  border-radius: 6px;
+  padding: 7px;
+  transition: background  400ms ease-in-out;
+}
+.baş{
+
+  width: 100%;
+  display: flex;
+font-size: 14px;
+  align-items: center;
+justify-content: space-between;
+height: 46px;
+align-items: center
+}
+.baş svg{
+
+cursor: pointer;
+}
+.baş .text-muted{
+  font-size: 12px;
+}
+.baş img{
+  margin-left: 15px;
+}
+.sıralama{
+  display: flex;
+align-items: center;
+}
+.sıralama hr{
+width: 55%;
+
+}
+.sıralama span{
+font-family: 'Poppins',sans-serif;
+font-size: 11px;
+}
+.durum-kartı{
+  width: 150px;
+  height: 70px;
+font-size: 11px;
+display: flex;
+margin-left: 17px;
+}
+.durum-kartı-p{
+line-height: 1px;
+width: 100%;
+padding-top: 14px;
+padding-left: 2px;
+margin-left: 2px;
+}
+.durum-kartı-img{
+object-fit: cover;
+width:64px;
+}
+.durum-kartı img{
+
+}
+.emoji{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.yorum button{
+  font-size: 13px;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+border:none;
+text-align: center;
+}
+.yorum i{
+margin-right: 5px;
+}
+.profils button{
+padding: 0;
+}
+.prei{
+  display: flex;
+}
